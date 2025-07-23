@@ -22,7 +22,7 @@ const menuConfig = {
     },
     {
       id: "menu-2",
-      title: "Blogs",
+      title: "Contact",
       path: "/blogs",
       icon: <BsMedium size={35} />,
       className: "nav-text",

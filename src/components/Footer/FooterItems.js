@@ -1,6 +1,7 @@
-import footerConfig from "../../assets/configs/footerConfig";
 import React from "react";
 import { Box, IconButton } from "@mui/material";
+import { Link } from "react-router-dom"; // ✅ 1. Import Link
+import footerConfig from "../../assets/configs/footerConfig";
 
 const FooterItems = () => {
   return (
@@ -15,8 +16,10 @@ const FooterItems = () => {
     >
       {footerConfig.icons.map((item) => (
         <IconButton
-          href={item.url}
           key={item.id}
+          component={item.isInternal ? Link : "a"} // ✅ 2. Use Link for internal routes
+          to={item.isInternal ? item.url : undefined} // ✅ 3. Set 'to' only if it's internal
+          href={!item.isInternal ? item.url : undefined} // ✅ 4. Use 'href' if it's external
           sx={{
             color: "#c9d1d9",
             padding: 2,

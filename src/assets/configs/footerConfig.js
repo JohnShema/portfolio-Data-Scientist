@@ -21,9 +21,8 @@ const footerConfig = {
     },
     {
       id: "footer-2",
-      url: "https://github.com/JohnShema/portfolio-Data-Scientist.git",
+      url: "/Blogs",
       className: "social-icon",
-      target: "_blank",
       icon: <BsMedium size={50} />,
     },
   ],
