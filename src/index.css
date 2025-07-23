@@ -5,8 +5,8 @@ html, body {
     font-family: "Raleway", serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #e5e3e3; /* Light grey background for a clean, minimalist look */
-    color: #263238; /* Dark grey text for better visibility */
+    background-color: #0d1117; /* Light grey background for a clean, minimalist look */
+    color: #c9d1d9; /* Dark grey text for better visibility */
     display: flex;
     flex-direction: column;
 }
@@ -21,8 +21,8 @@ html, body {
 .about-card {
     max-width: 1200px;
     width: 90%;
-    background-color: #ffffff; /* White background for cards */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #0d1117; /* White background for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
     border-radius: 8px; /* Rounded corners for a modern look */
     padding: 16px; /* Consistent padding inside cards */
 }
@@ -31,7 +31,7 @@ html, body {
 .heading {
     font-size: 2rem;
     text-align: center;
-    color: #263238; /* Dark grey color for headings */
+    color: #c9d1d9; /* Dark grey color for headings */
     padding: 2rem 0;
 }
 
@@ -39,7 +39,7 @@ html, body {
 .Typewriter {
     font-size: 1rem;
     margin-bottom: 2rem;
-    color: #757575; /* Light grey color for typewriter text */
+    color: #fcd34d; /* Light grey color for typewriter text */
 }
 
 /* Responsive Adjustments */
@@ -69,8 +69,8 @@ a {
 
 /* Button Styles */
 button {
-    background-color: #263238; /* Dark grey button background */
-    color: #ffffff; /* White text on buttons */
+    background-color: #0d1117; /* Dark grey button background */
+    color: #c9d1d9; /* White text on buttons */
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
