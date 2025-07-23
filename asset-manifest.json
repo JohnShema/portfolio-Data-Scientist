@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio-Data-Scientist/static/css/main.0e876f6d.css",
-    "main.js": "/portfolio-Data-Scientist/static/js/main.30408262.js",
+    "main.js": "/portfolio-Data-Scientist/static/js/main.65e3d3b4.js",
     "static/media/sklearn_genetic_opt.png": "/portfolio-Data-Scientist/static/media/sklearn_genetic_opt.15b892adf6368a965618.png",
     "static/media/kafkaml.png": "/portfolio-Data-Scientist/static/media/kafkaml.5ee10c15934deddbebe6.png",
-    "static/media/fastapi_sklearn.png": "/portfolio-Data-Scientist/static/media/fastapi_sklearn.0bfaec4cff582eb26751.png",
     "static/media/portfolio.png": "/portfolio-Data-Scientist/static/media/portfolio.565c9c29306627d2173d.png",
     "index.html": "/portfolio-Data-Scientist/index.html",
     "main.0e876f6d.css.map": "/portfolio-Data-Scientist/static/css/main.0e876f6d.css.map",
-    "main.30408262.js.map": "/portfolio-Data-Scientist/static/js/main.30408262.js.map"
+    "main.65e3d3b4.js.map": "/portfolio-Data-Scientist/static/js/main.65e3d3b4.js.map"
   },
   "entrypoints": [
     "static/css/main.0e876f6d.css",
-    "static/js/main.30408262.js"
+    "static/js/main.65e3d3b4.js"
   ]
 }
