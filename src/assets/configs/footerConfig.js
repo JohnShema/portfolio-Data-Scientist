@@ -1,6 +1,6 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { BsMedium } from "react-icons/bs";
+
 import React from "react";
 
 const footerConfig = {
@@ -18,12 +18,6 @@ const footerConfig = {
       className: "social-icon",
       target: "_blank",
       icon: <FaLinkedinIn size={50} />,
-    },
-    {
-      id: "footer-2",
-      url: "/Blogs",
-      className: "social-icon",
-      icon: <BsMedium size={50} />,
     },
   ],
 };
