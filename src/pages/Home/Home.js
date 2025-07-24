@@ -3,6 +3,7 @@ import { Container, Grid2, Box, Typography } from "@mui/material";
 import DynamicTyping from "../../components/DynamicTyping";
 import About from "../../components/About";
 import Timeline from "../../components/Timeline/Timeline";
+import Blogs from "../../pages/Blogs";
 import homeConfig from "../../assets/configs/homeConfig";
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
       >
         <Box sx={{ width: "100%", maxWidth: "960px", mx: "auto" }}>
           <Timeline items={homeConfig.workTimeline} />
+          <Blogs /> {/* ✅ added */}
         </Box>
       </Container>
     </section>

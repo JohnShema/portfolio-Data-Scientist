@@ -3,89 +3,89 @@ import { BiGitRepoForked } from "react-icons/bi";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 import { ImBook } from "react-icons/im";
 
-import sklearnGenetic from "../images/sklearn_genetic_opt.png";
-import kafkaMl from "../images/kafkaml.png";
-import portfolio from "../images/portfolio.png";
+import Heart_Stroke_Predictions_Model from "../images/Heart_Stroke_Predictions_Model.png";
+import Fraud_mindmap from "../images/Fraud_mindmap.png";
+import Music_Recommendation from "../images/Music_Recommendation.png";
+import Portfolio_Website from "../images/Portfolio_Website.jpg";
 
 import React from "react";
 
 const projectConfig = [
   {
     id: "project-5",
-    title: "Sklearn Genetic Opt",
+    title: "Heart Stroke Predictions Model",
     links: [
       {
         name: "repo",
-        url: "https://github.com/JohnShema/portfolio-Data-Scientist.git",
+        url: "https://github.com/ShemaKevin62/Heart-Stroke-Prediction.git",
         icon: <AiFillGithub />,
       },
       {
         name: "fork",
-        url: "https://github.com/JohnShema/portfolio-Data-Scientist/forks",
+        url: "https://github.com/ShemaKevin62/Heart-Stroke-Prediction/fork",
         icon: <BiGitRepoForked />,
       },
 
       {
         name: "docs",
-        url: "",
+        url: "https://github.com/ShemaKevin62/Heart-Stroke-Prediction/blob/master/README.md#heart-stroke-predictions-model-in-production",
         icon: <ImBook />,
       },
     ],
-    image: sklearnGenetic,
+    image: Heart_Stroke_Predictions_Model,
     description:
-      "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
+      "Predicts the likelihood of a stroke based on patient health indicators. By analyzing key medical metrics such as blood pressure, age, and lifestyle factors, the system delivers an accurate prediction of stroke probability tailored to each individual's health profile. #Python #ML #Classification",
     target: "_blank",
   },
   {
     id: "project-3",
-    title: "Kafkaml Anomalies",
+    title: "Transaction Fraud Detection",
     links: [
       {
         name: "repo",
-        url: "https://github.com/JohnShema/portfolio-Data-Scientist.git",
+        url: "https://github.com/ShemaKevin62/Transaction-Fraud-Detection.git",
         icon: <AiFillGithub />,
       },
       {
         name: "fork",
-        url: "https://github.com/JohnShema/portfolio-Data-Scientist/forks",
+        url: "https://github.com/ShemaKevin62/Transaction-Fraud-Detection/fork",
         icon: <BiGitRepoForked />,
       },
       {
         name: "docs",
-        url: "",
+        url: "https://github.com/ShemaKevin62/Transaction-Fraud-Detection/tree/main?tab=readme-ov-file#transaction-fraud-detection",
         icon: <ImBook />,
       },
     ],
-    image: kafkaMl,
+    image: Fraud_mindmap,
     description:
-      "Project for real-time anomaly detection using kafka and python.",
+      "Identifies fraudulent financial transactions using classification models. By analyzing transaction patterns and anomalies, the system leverages machine learning classification techniques to detect and flag potentially fraudulent activity. #Python #SMOTE #Random_Forest",
     target: "_blank",
   },
   {
     id: "project-2",
-    title: "Pyworkforce",
+    title: "Spotify Song Prediction and Recommendation System",
     links: [
       {
         name: "repo",
-        url: "https://github.com/JohnShema/portfolio-Data-Scientist.git",
+        url: "https://github.com/ShemaKevin62/Spotify-Song-Prediction-and-Recommendation-System.git",
         icon: <AiFillGithub />,
       },
       {
         name: "fork",
-        url: "https://github.com/JohnShema/portfolio-Data-Scientist/forks",
+        url: "https://github.com/ShemaKevin62/Spotify-Song-Prediction-and-Recommendation-System/fork",
         icon: <BiGitRepoForked />,
       },
 
       {
         name: "docs",
-        url: "",
+        url: "https://github.com/ShemaKevin62/Spotify-Song-Prediction-and-Recommendation-System?tab=readme-ov-file#",
         icon: <ImBook />,
       },
     ],
-    image:
-      "https://www.shutterstock.com/image-photo/rocky-shore-beach-andaman-sea-thailand-310965713",
+    image: Music_Recommendation,
     description:
-      "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
+      "Predicts song popularity and recommends songs using audio features. #Python #Scikit-learn #ML",
     target: "_blank",
   },
   {
@@ -108,8 +108,9 @@ const projectConfig = [
         icon: <ImBook />,
       },
     ],
-    image: portfolio,
-    description: "Source code of my current portfolio web page.",
+    image: Portfolio_Website,
+    description:
+      "The source code of my current portfolio web page showcases my technical skills, featuring clean architecture, responsive design, and dynamic content tailored to professional roles in data science, machine learning, and project management.",
     target: "_blank",
   },
 ];

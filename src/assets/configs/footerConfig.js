@@ -7,7 +7,7 @@ const footerConfig = {
   icons: [
     {
       id: "footer-0",
-      url: "https://github.com/JohnShema/portfolio-Data-Scientist.git",
+      url: "https://github.com/ShemaKevin62",
       className: "social-icon",
       target: "_blank",
       icon: <AiFillGithub size={50} />,

@@ -1,77 +1,38 @@
+# Kevin Shema - Data Science Portfolio
 
-<h2>
-  Personal Portfolio
-  <a href="https://rodrigo-arenas.github.io/portfolio" target="_blank">Website</a>
-</h2>
+**[Live Demo](https://johnshema.github.io/portfolio-Data-Scientist/)**
 
-This is my website to resume my work as a data scientist.
-The page mainly uses React and MUI and is inspired by open-source components.
+This is the official portfolio website of **Kevin Shema**, a professional in **Data Science**, **Machine Learning**, and **Project Management**. The website highlights his experience, featured projects, technical skills, and career journey.
 
-Feel free to use this project as a template, and please give a small credit by linking back to this project.
-If you found this project helpful, consider giving it a 
-[star](https://github.com/rodrigo-arenas/portfolio/stargazers) [⭐](https://github.com/rodrigo-arenas/portfolio/stargazers)
+## Overview
 
-**[Live Demo](https://rodrigo-arenas.github.io/portfolio/)**
+- **Name:** Kevin Shema
+- **Fields:** Data Science, Machine Learning, Project Management
+- **Purpose:** Personal portfolio to showcase professional work and achievements
+- **Tech Stack:** React, Material UI (MUI)
 
-<img src="./src/assets/images/website.gif" alt="demo">
+## Features
 
+- Clean and responsive design
+- Project showcases
+- Professional timeline and career highlights
+- Contact section with social links
 
-## Installation Guide
+## Content Management
 
-* Fork the project 
-  ```
-  https://github.com/rodrigo-arenas/portfolio/fork
-  ```
-* Clone your fork
-  ```
-  git clone https://github.com/{yourusername}/portfolio.git
-  ```
-* Install the packages
-  ```
-  npm install
-  ```
-* Start the project
-  ```
-  npm start
-  ```
+All website content is organized inside the `/assets` folder, making it easy to update information like:
 
-## Customize your information
+- Introduction and bio
+- Skills and experience
+- Projects
+- Contact and social media links
 
-All the content (text, icons, links, etc.) are configured in the `assets` folders,
-it has two kinds:
+Images are stored in `assets/images` and linked directly within the config files.
 
-### Configs:
+## Deployment
 
-There is one configuration file per page or main component, for example, if you want
-to modify the footer icons and hyperlinks, go to the footerConfig.js file
+The site is deployed via GitHub Pages and publicly accessible at the link above.
 
-![footer](src/assets/images/footer.png)
+---
 
-Here, you can modify all the values but keep the key's names, structure, and className the same; 
-you can also add new values to the configs containing a list.
-
-
-### Images:
-
-This folder keeps images displayed over some routes, like blogs and projects.
-For example, inside the projectsConfig.js file, the list of projects has a property called "image":
-
-![projects_config.png](src/assets/images/projects_config.png)
-
-You can set any valid href for the `<a/>` tag as an image URL or, like in the above image, 
-an image from the `assets/images` folder.
-
-![projects_images](projects_images.png)
-
-
-### Set Google Analytics track (Optional):
-
-Take the `.env.example` file, put your tracking ID in the 
-variable `REACT_APP_TRACKING_ID`, and rename the file to `.env`
-
-## Troubleshooting
-
-If you see any error of unexpected token ">" while deploying, try to remove the following from the `package.json` file:
-```
-"homepage": "https://rodrigo-arenas.github.io/portfolio",
-```
+© 2025 Kevin Shema. All rights reserved.

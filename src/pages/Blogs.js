@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { TextField, Button, Typography, Container } from "@mui/material";
 
-const Contact = () => {
+const Blogs = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -100,4 +100,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Blogs;
