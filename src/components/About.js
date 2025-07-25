@@ -3,7 +3,7 @@ import { Card, CardHeader, CardContent, Typography, Box } from "@mui/material";
 
 const About = (props) => {
   const { about } = props || {};
-  const { start, exit } = about || {};
+  const { start = "", exit = "" } = about || {};
 
   return (
     <Box id="about" sx={{ my: 4 }}>
@@ -16,24 +16,30 @@ const About = (props) => {
                 className="iconify"
                 data-icon="emojione:red-circle"
                 sx={{ mr: 1 }}
+                role="img"
+                aria-label="red status"
               />
               <Box
                 component="span"
                 className="iconify"
                 data-icon="twemoji:yellow-circle"
                 sx={{ mr: 1 }}
+                role="img"
+                aria-label="yellow status"
               />
               <Box
                 component="span"
                 className="iconify"
                 data-icon="twemoji:green-circle"
+                role="img"
+                aria-label="green status"
               />
             </Box>
           }
         />
         <CardContent
           sx={{
-            fontSize: "132%",
+            fontSize: { xs: "1rem", sm: "1.32rem" },
             lineHeight: "150%",
             backgroundColor: "#151030",
             color: "#c9d1d9",

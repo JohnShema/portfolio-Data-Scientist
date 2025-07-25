@@ -29,37 +29,41 @@ html, body {
 
 /* Heading Style */
 .heading {
-    font-size: 2rem;
-    text-align: center;
-    color: #c9d1d9; /* Dark grey color for headings */
-    padding: 2rem 0;
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+
+  font-size: 5rem;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 1rem 2rem;
+
+  text-align: left;
+
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInSlide 5s ease-out forwards;
+}
+
+/* Animation keyframes */
+@keyframes fadeInSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Typewriter Effect */
 .Typewriter {
-    font-size: 1rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    top: 25rem;
+  left: 26rem;
+  position: absolute;
+   
+  
+
     color: #fcd34d; /* Light grey color for typewriter text */
 }
-
-/* Responsive Adjustments */
-@media screen and (max-width: 499px) {
-    html {
-        font-size: 0.8em;
-    }
-
-    .heading {
-        padding: 2rem 0;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .Typewriter {
-        font-size: 0.8rem;
-        margin-bottom: 2rem;
-    }
-}
-
 /* Links */
 a {
     color: #1e88e5; /* Subtle blue color for links */
@@ -80,4 +84,57 @@ button {
 
 button:hover {
     background-color: #1e88e5; /* Blue background on hover */
+}
+
+/* 🌐 Responsive Adjustments */
+@media (max-width: 1024px) {
+  .heading {
+    font-size: 3rem;
+    top: 8rem;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .Typewriter {
+    font-size: 2.2rem;
+    top: 20rem;
+    left: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2.2rem;
+    top: 6rem;
+    left: 1rem;
+  }
+
+  .Typewriter {
+    font-size: 1.6rem;
+    top: 17rem;
+    left: 2rem;
+  }
+
+  .about-card {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.8rem;
+    top: 5rem;
+    left: 1rem;
+  }
+
+  .Typewriter {
+    font-size: 1.2rem;
+    top: 15rem;
+    left: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
 }

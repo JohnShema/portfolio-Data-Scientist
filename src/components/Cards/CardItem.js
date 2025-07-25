@@ -6,7 +6,8 @@ const CardItem = (props) => {
   return (
     <Card
       sx={{
-        width: 380,
+        width: { xs: "100%", sm: 380 }, // full width on xs, fixed width on sm+
+        maxWidth: 380,
         height: 450,
         m: 2,
         backgroundColor: "#151030",

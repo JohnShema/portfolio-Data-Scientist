@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, IconButton } from "@mui/material";
-import { Link } from "react-router-dom"; // ✅ 1. Import Link
+import { Link } from "react-router-dom";
 import footerConfig from "../../assets/configs/footerConfig";
 
 const FooterItems = () => {
@@ -8,29 +8,33 @@ const FooterItems = () => {
     <Box
       sx={{
         display: "flex",
+        flexWrap: "wrap",
         justifyContent: "center",
         alignItems: "center",
         maxWidth: 400,
-        margin: "0 auto",
+        mx: "auto",
+        gap: 1, // spacing between icons
+        py: 2,
       }}
     >
       {footerConfig.icons.map((item) => (
         <IconButton
           key={item.id}
-          component={item.isInternal ? Link : "a"} // ✅ 2. Use Link for internal routes
-          to={item.isInternal ? item.url : undefined} // ✅ 3. Set 'to' only if it's internal
-          href={!item.isInternal ? item.url : undefined} // ✅ 4. Use 'href' if it's external
+          component={item.isInternal ? Link : "a"}
+          to={item.isInternal ? item.url : undefined}
+          href={!item.isInternal ? item.url : undefined}
           sx={{
             color: "#c9d1d9",
-            padding: 2,
-            transition: "transform 0.3s, box-shadow 0.3s",
+            p: 1.5,
+            transition: "transform 0.3s ease, box-shadow 0.3s ease",
             "&:hover": {
               backgroundColor: "#151030",
-              transform: "translateY(-5px)",
+              transform: "translateY(-4px)",
             },
           }}
-          target={item.target}
-          rel="noopener noreferrer"
+          target={item.target || (!item.isInternal ? "_blank" : undefined)}
+          rel={!item.isInternal ? "noopener noreferrer" : undefined}
+          aria-label={item.label || "footer-icon"} // Accessible label
         >
           {item.icon}
         </IconButton>
