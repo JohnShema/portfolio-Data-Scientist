@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-Data-Scientist/static/css/main.0e876f6d.css",
-    "main.js": "/portfolio-Data-Scientist/static/js/main.43dcca81.js",
+    "main.css": "/portfolio-Data-Scientist/static/css/main.04fd62eb.css",
+    "main.js": "/portfolio-Data-Scientist/static/js/main.3bf4d873.js",
     "static/media/Heart_Stroke_Predictions_Model.png": "/portfolio-Data-Scientist/static/media/Heart_Stroke_Predictions_Model.7947388484c66567e7ee.png",
     "static/media/Portfolio_Website.jpg": "/portfolio-Data-Scientist/static/media/Portfolio_Website.6dcfcea60fec406c2ab9.jpg",
     "static/media/Fraud_mindmap.png": "/portfolio-Data-Scientist/static/media/Fraud_mindmap.7e2918611cd1da21c9cc.png",
     "static/media/Music_Recommendation.png": "/portfolio-Data-Scientist/static/media/Music_Recommendation.14265c2ef8145635236e.png",
     "index.html": "/portfolio-Data-Scientist/index.html",
-    "main.0e876f6d.css.map": "/portfolio-Data-Scientist/static/css/main.0e876f6d.css.map",
-    "main.43dcca81.js.map": "/portfolio-Data-Scientist/static/js/main.43dcca81.js.map"
+    "main.04fd62eb.css.map": "/portfolio-Data-Scientist/static/css/main.04fd62eb.css.map",
+    "main.3bf4d873.js.map": "/portfolio-Data-Scientist/static/js/main.3bf4d873.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e876f6d.css",
-    "static/js/main.43dcca81.js"
+    "static/css/main.04fd62eb.css",
+    "static/js/main.3bf4d873.js"
   ]
 }
